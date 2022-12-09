@@ -9,7 +9,7 @@ int main()
     app.setFramerateLimit(60);
 
     //Variables for moving paddle
-    int xAxis=400;
+    int xAxis=250;
     bool lPressed=false;
     bool rPressed=false;
 
@@ -108,7 +108,7 @@ int main()
                             rPressed = false;
                         }
 
-                     sPaddle.setPosition(250,400);
+                     sPaddle.setPosition(xAxis,400);
 
     x+=dx;
     for (int i=0;i<n;i++){
